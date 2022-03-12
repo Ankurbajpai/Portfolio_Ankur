@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/main.css" />
     <title>Ankur Bajpai | Consultant , Developer & Designer</title>
     <meta name="description" content="Ankur Bajpai | Consultant , Developer & Designer" />
+    <script src="https://s3.amazonaws.com/myadvobuck/static/libs/typed.min.js"></script>
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -107,18 +108,9 @@
               </h2>
               <h2 class="title-font sm:text-lg text-xl mb-4 font-sans text-gray-900 dark:text-white">
                 I'm a
-                <span
-                  class="typed-me text-blue-600"
-                  data-string0="Consultant"
-                  data-string1="Developer"
-                  data-string2="Designer"
-                  data-type-speed="40"
-                  data-start-delay="0"
-                  data-backspeed="20"
-                  data-back-delay="1300"
-                  data-loop=""
-                ></span>
+                <span class="typed-me text-blue-600"></span>
                 , creating beautiful and functional apps that delight users.
+
                 <!-- <i class="material-icons text-red-700">rocket_launch</i> -->
               </h2>
 
@@ -176,8 +168,21 @@
       <!-- <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center"></div> -->
       <div id="footer"></div>
     </div>
-    <script src="/js/typed.js" id="typed-script-js"></script>
-    <script src="/js/typed.fe.js" id="typed-frontend-js"></script>
+
+    <script>
+      var typed = new Typed(".typed-me", {
+        strings: ["Consultant", "Developer", "Designer"],
+        smartBackspace: true,
+        typeSpeed: 60,
+        startDelay: 0,
+        backSpeed: 60,
+        smartBackspace: true,
+        shuffle: false,
+        backDelay: 700,
+        loop: true,
+      });
+    </script>
+
     <script src="/js/script.js"></script>
   </body>
 </html>
