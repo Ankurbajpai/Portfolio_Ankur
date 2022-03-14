@@ -6,5 +6,5 @@ document.getElementById("hamburger").onclick = function toggleMenu() {
 };
 
 document.getElementById("idBtnResume").onclick = function openResume() {
-  window.open("https://drive.google.com/file/d/1Q8RUvXqnWgZK7QY1AtuMZ8oLy14MNhRb/view", "_blank");
+  window.open("https://drive.google.com/file/d/1CEfU2u0v1Deeckvmhn9fLcL0a80rSgqm/view", "_blank");
 };
